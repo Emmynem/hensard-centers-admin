@@ -356,7 +356,7 @@ export default function Teams() {
 						<div className='xui-d-grid xui-grid-col-1 xui-lg-grid-col-2 xui-grid-gap-1 xui-lg-grid-gap-2'>
 							<div className="xui-form-box xui-mt-2">
 								<label>Title</label>
-								<input className="xui-font-sz-90" type="text" minLength={2} maxLength={50} value={title} onChange={handleTitle} required placeholder="Enter title"></input>
+								<input className="xui-font-sz-90" type="text" minLength={2} maxLength={200} value={title} onChange={handleTitle} required placeholder="Enter title"></input>
 							</div>
 							<div className="xui-form-box xui-mt-2">
 								<label>Fullname</label>
@@ -445,7 +445,7 @@ export default function Teams() {
 												<div className='xui-d-grid xui-grid-col-1 xui-lg-grid-col-2 xui-grid-gap-1 xui-lg-grid-gap-2'>
 													<div className="xui-form-box xui-mt-2">
 														<label>Title</label>
-														<input className="xui-font-sz-90" type="text" minLength={2} maxLength={50} value={titleEdit} onChange={handleTitleEdit} required placeholder="Enter title"></input>
+														<input className="xui-font-sz-90" type="text" minLength={2} maxLength={200} value={titleEdit} onChange={handleTitleEdit} required placeholder="Enter title"></input>
 													</div>
 													<div className="xui-form-box xui-mt-2">
 														<label>Fullname</label>
