@@ -69,8 +69,8 @@ const useAddTeam = () => {
 				setTimeout(function () {
 					setErrorAddTeam(null);
 				}, 2500)
-			} else if (title.length > 50) {
-				setErrorAddTeam("Title maximum characters - 50");
+			} else if (title.length > 200) {
+				setErrorAddTeam("Title maximum characters - 200");
 				setTimeout(function () {
 					setErrorAddTeam(null);
 				}, 2500)
@@ -320,8 +320,8 @@ const useUpdateTeamDetails = () => {
 				setTimeout(function () {
 					setErrorUpdateTeamDetails(null);
 				}, 2500)
-			} else if (title.length > 50) {
-				setErrorUpdateTeamDetails("Title maximum characters - 50");
+			} else if (title.length > 200) {
+				setErrorUpdateTeamDetails("Title maximum characters - 200");
 				setTimeout(function () {
 					setErrorUpdateTeamDetails(null);
 				}, 2500)
