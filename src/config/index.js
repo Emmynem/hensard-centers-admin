@@ -4,7 +4,7 @@ const {
 
 const EMAIL_REGEX = /^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$/;
 const PHONE_NUMBER_REGEX = /^\+(?:[0-9]●?){3}[0-9]{10}$/;
-const baseAPIurl = "https://hsdca.hensarduniversity.edu.ng";
+const baseAPIurl = "https://api.hcecr.org";
 // const baseAPIurl = "http://localhost:833"; // for test
 const clouderUrl = "https://api.clouder.xnyder.com";
 
