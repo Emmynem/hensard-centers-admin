@@ -2,7 +2,7 @@
   "name": "hensard-centers-admin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hsdc.hensarduniversity.edu.ng",
+  "homepage": "https://admin.hcecr.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
