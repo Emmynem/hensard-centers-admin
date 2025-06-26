@@ -6,7 +6,7 @@ const EMAIL_REGEX = /^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$/;
 const PHONE_NUMBER_REGEX = /^\+(?:[0-9]●?){3}[0-9]{10}$/;
 const baseAPIurl = "https://api.hcecr.org";
 // const baseAPIurl = "http://localhost:833"; // for test
-const clouderUrl = "https://api.clouder.xnyder.com";
+const clouderUrl = "https://clouderapi.xnyder.com";
 
 const random_numbers = (length) => {
 	if (length === undefined || length === null || length === 0) {
